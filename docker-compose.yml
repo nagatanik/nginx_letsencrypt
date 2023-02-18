@@ -2,7 +2,7 @@ version: "3.9"
 services:
   nginx:
     image: nginx:1.23.3-alpine
-    container_name: nginx-proxy
+    container_name: nginx
     environment:
       TZ: Asia/Tokyo
     volumes:
